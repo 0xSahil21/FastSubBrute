@@ -20,7 +20,7 @@ git clone [https://github.com/0xSahil21/FastSubBrute.git](https://github.com/0xS
 cd FastSubBrute
 ```
 
-2. **Install dependencies**:
+### 2. **Install dependencies**:
    ```bash
    sudo apt update
    sudo apt install python3-dnspython python3-tqdm
@@ -31,7 +31,7 @@ cd FastSubBrute
 **Option A: Command Line Argument**
 Run the script by providing the target domain as an argument:
 ```bash
-python3 recon.py mitacsc.ac.in
+python3 recon.py <target>
 ```
 
 **Option B: Interactive Prompt**

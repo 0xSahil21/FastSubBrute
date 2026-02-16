@@ -14,23 +14,31 @@ A high-performance, memory-efficient subdomain brute-forcer written in Python. D
 
 ## 🛠️ Installation
 
-1. **Clone the repository**:
-   git clone https://github.com/<your-username>/fastSubBrute.git
-   cd fastSubBrute
+### 1. Clone the repository
+```bash
+git clone [https://github.com/0xSahil21/FastSubBrute.git](https://github.com/0xSahil21/FastSubBrute.git)
+cd FastSubBrute
+```
 
 2. **Install dependencies**:
+   ```bash
    sudo apt update
    sudo apt install python3-dnspython python3-tqdm
+   ```
 
 ## 📖 Usage
 
 **Option A: Command Line Argument**
 Run the script by providing the target domain as an argument:
+```bash
 python3 recon.py mitacsc.ac.in
+```
 
 **Option B: Interactive Prompt**
 Alternatively, run the script and enter the domain when prompted:
+```bash
 python3 recon.py
+```
 
 ## 📊 Performance
 On an 8GB RAM Kali VM, the tool comfortably handles:

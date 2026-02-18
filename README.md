@@ -31,13 +31,13 @@ cd FastSubBrute
 **Option A: Command Line Argument**
 Run the script by providing the target domain as an argument:
 ```bash
-python3 recon.py <target>
+python3 fastsubbrute.py <target>
 ```
 
 **Option B: Interactive Prompt**
 Alternatively, run the script and enter the domain when prompted:
 ```bash
-python3 recon.py
+python3 fastsubbrute.py
 ```
 
 ## 📊 Performance
